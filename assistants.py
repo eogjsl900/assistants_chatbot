@@ -30,7 +30,7 @@ print(file_batch.file_counts)
 
 
 assistant = client.beta.assistants.update(
-  assistant_id="asst_8fudQGCXlLgwDNYWKb4w1mNV",
+  assistant_id="your_assistant_id",
   tool_resources={"file_search": {"vector_store_ids": [vector_store.id]}},
 )
 
